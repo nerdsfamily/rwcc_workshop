@@ -1,24 +1,39 @@
-# README
+# RWCC Workshop
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the code and resources for the RWCC Workshop.
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+- Ruby version: 3.1.2
+- Rails version: 7.0.4
 
-* System dependencies
+## Setup Instructions
 
-* Configuration
+1. **Clone the Repository**
+    ```sh
+    git clone https://github.com/nerdsfamily/rwcc_workshop.git
+    cd rwcc_workshop
+    ```
 
-* Database creation
+2. **Install Dependencies**
+    ```sh
+    bundle install
+    ```
 
-* Database initialization
+3. **Set Up the Database**
+    ```sh
+    rails db:create
+    rails db:migrate
+    ```
 
-* How to run the test suite
+4. **Run the Application**
+    ```sh
+    rails server
+    ```
 
-* Services (job queues, cache servers, search engines, etc.)
+5. **Run Tests**
+    ```sh
+    rspec
+    ```
 
-* Deployment instructions
-
-* ...
+For detailed instructions, please refer to the [official documentation](https://github.com/nerdsfamily/rwcc_workshop).
